@@ -57,13 +57,11 @@ db.default.password="{SQL_PASSWORD}" // exp : ""
 | /reminders/sortedall  |   GET  | Retrieve the reminders of the authenticated user sorted chronologically by expiration date |
 ## Screenshots
 
-| | |
-:-------------------------:|:-------------------------:
-| ![Home](/Screenshots/Accueil.png) | ![Login](/Screenshots/Connexion.png) 
-| ![Signup](/Screenshots/Inscription.png) | ![Reminders Preview](/Screenshots/AprecuRappel.png)
-| ![My Cars](/Screenshots/MonGarage.png) | ![Add Car](/Screenshots/AjoutVoiture.png)
-| ![Add Reminder](/Screenshots/AjoutRappel.png) | 
-| 
+| | | |
+:-------------------------:|:-------------------------:|:-------------------------:
+| ![Home](/Screenshots/Accueil.png) | ![Login](/Screenshots/Connexion.png) | ![Signup](/Screenshots/Inscription.png)
+| ![Reminders Preview](/Screenshots/AprecuRappel.png) | ![My Cars](/Screenshots/MonGarage.png) | ![Add Car](/Screenshots/AjoutVoiture.png)
+| ![Add Reminder](/Screenshots/AjoutRappel.png) | |
 
 ## Conclusion
 
