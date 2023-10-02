@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C236374C2A6857980043FB4C /* CustomViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236374B2A6857980043FB4C /* CustomViews.swift */; };
+		C23637522A6858450043FB4C /* AddCarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23637512A6858450043FB4C /* AddCarView.swift */; };
+		C23637542A6858670043FB4C /* AddReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23637532A6858670043FB4C /* AddReminderView.swift */; };
+		C23637562A6858830043FB4C /* CarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23637552A6858830043FB4C /* CarsView.swift */; };
+		C23637582A68589C0043FB4C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23637572A68589C0043FB4C /* HomeView.swift */; };
+		C236375A2A6858BB0043FB4C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23637592A6858BB0043FB4C /* LoginView.swift */; };
+		C236375C2A6858D70043FB4C /* CloseRemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236375B2A6858D70043FB4C /* CloseRemindersView.swift */; };
+		C236375E2A6858ED0043FB4C /* RefreshCarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236375D2A6858ED0043FB4C /* RefreshCarsView.swift */; };
+		C23637602A6859030043FB4C /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C236375F2A6859030043FB4C /* RegisterView.swift */; };
+		C23637632A6EC0460043FB4C /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23637622A6EC0450043FB4C /* Models.swift */; };
+		C23637652A6EC0590043FB4C /* ApiCalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23637642A6EC0590043FB4C /* ApiCalls.swift */; };
+		C28B66782A6855820074F2B1 /* CarMaintenanceReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B66772A6855820074F2B1 /* CarMaintenanceReminderApp.swift */; };
+		C28B667A2A6855820074F2B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B66792A6855820074F2B1 /* ContentView.swift */; };
+		C28B667C2A6855850074F2B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28B667B2A6855850074F2B1 /* Assets.xcassets */; };
+		C28B66802A6855850074F2B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28B667F2A6855850074F2B1 /* Preview Assets.xcassets */; };
+		C28B668A2A6855850074F2B1 /* CarMaintenanceReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B66892A6855850074F2B1 /* CarMaintenanceReminderTests.swift */; };
+		C28B66942A6855850074F2B1 /* CarMaintenanceReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B66932A6855850074F2B1 /* CarMaintenanceReminderUITests.swift */; };
+		C28B66962A6855850074F2B1 /* CarMaintenanceReminderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28B66952A6855850074F2B1 /* CarMaintenanceReminderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C28B66862A6855850074F2B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C28B666C2A6855820074F2B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28B66732A6855820074F2B1;
+			remoteInfo = CarMaintenanceReminder;
+		};
+		C28B66902A6855850074F2B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C28B666C2A6855820074F2B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C28B66732A6855820074F2B1;
+			remoteInfo = CarMaintenanceReminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C236374B2A6857980043FB4C /* CustomViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViews.swift; sourceTree = "<group>"; };
+		C23637512A6858450043FB4C /* AddCarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarView.swift; sourceTree = "<group>"; };
+		C23637532A6858670043FB4C /* AddReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderView.swift; sourceTree = "<group>"; };
+		C23637552A6858830043FB4C /* CarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsView.swift; sourceTree = "<group>"; };
+		C23637572A68589C0043FB4C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C23637592A6858BB0043FB4C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		C236375B2A6858D70043FB4C /* CloseRemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseRemindersView.swift; sourceTree = "<group>"; };
+		C236375D2A6858ED0043FB4C /* RefreshCarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshCarsView.swift; sourceTree = "<group>"; };
+		C236375F2A6859030043FB4C /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		C23637622A6EC0450043FB4C /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C23637642A6EC0590043FB4C /* ApiCalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCalls.swift; sourceTree = "<group>"; };
+		C28B66742A6855820074F2B1 /* CarMaintenanceReminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarMaintenanceReminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28B66772A6855820074F2B1 /* CarMaintenanceReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMaintenanceReminderApp.swift; sourceTree = "<group>"; };
+		C28B66792A6855820074F2B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C28B667B2A6855850074F2B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C28B667D2A6855850074F2B1 /* CarMaintenanceReminder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CarMaintenanceReminder.entitlements; sourceTree = "<group>"; };
+		C28B667F2A6855850074F2B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C28B66852A6855850074F2B1 /* CarMaintenanceReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarMaintenanceReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28B66892A6855850074F2B1 /* CarMaintenanceReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMaintenanceReminderTests.swift; sourceTree = "<group>"; };
+		C28B668F2A6855850074F2B1 /* CarMaintenanceReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarMaintenanceReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28B66932A6855850074F2B1 /* CarMaintenanceReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMaintenanceReminderUITests.swift; sourceTree = "<group>"; };
+		C28B66952A6855850074F2B1 /* CarMaintenanceReminderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarMaintenanceReminderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C28B66712A6855820074F2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28B66822A6855850074F2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28B668C2A6855850074F2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C236374A2A6857820043FB4C /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				C236374B2A6857980043FB4C /* CustomViews.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		C23637502A68580D0043FB4C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C23637512A6858450043FB4C /* AddCarView.swift */,
+				C23637532A6858670043FB4C /* AddReminderView.swift */,
+				C23637552A6858830043FB4C /* CarsView.swift */,
+				C23637572A68589C0043FB4C /* HomeView.swift */,
+				C23637592A6858BB0043FB4C /* LoginView.swift */,
+				C236375B2A6858D70043FB4C /* CloseRemindersView.swift */,
+				C236375D2A6858ED0043FB4C /* RefreshCarsView.swift */,
+				C236375F2A6859030043FB4C /* RegisterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C23637612A6EC01F0043FB4C /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C23637622A6EC0450043FB4C /* Models.swift */,
+				C23637642A6EC0590043FB4C /* ApiCalls.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C28B666B2A6855820074F2B1 = {
+			isa = PBXGroup;
+			children = (
+				C28B66762A6855820074F2B1 /* CarMaintenanceReminder */,
+				C28B66882A6855850074F2B1 /* CarMaintenanceReminderTests */,
+				C28B66922A6855850074F2B1 /* CarMaintenanceReminderUITests */,
+				C28B66752A6855820074F2B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C28B66752A6855820074F2B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C28B66742A6855820074F2B1 /* CarMaintenanceReminder.app */,
+				C28B66852A6855850074F2B1 /* CarMaintenanceReminderTests.xctest */,
+				C28B668F2A6855850074F2B1 /* CarMaintenanceReminderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C28B66762A6855820074F2B1 /* CarMaintenanceReminder */ = {
+			isa = PBXGroup;
+			children = (
+				C23637612A6EC01F0043FB4C /* API */,
+				C23637502A68580D0043FB4C /* Views */,
+				C236374A2A6857820043FB4C /* ReusableViews */,
+				C28B66772A6855820074F2B1 /* CarMaintenanceReminderApp.swift */,
+				C28B66792A6855820074F2B1 /* ContentView.swift */,
+				C28B667B2A6855850074F2B1 /* Assets.xcassets */,
+				C28B667D2A6855850074F2B1 /* CarMaintenanceReminder.entitlements */,
+				C28B667E2A6855850074F2B1 /* Preview Content */,
+			);
+			path = CarMaintenanceReminder;
+			sourceTree = "<group>";
+		};
+		C28B667E2A6855850074F2B1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C28B667F2A6855850074F2B1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C28B66882A6855850074F2B1 /* CarMaintenanceReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				C28B66892A6855850074F2B1 /* CarMaintenanceReminderTests.swift */,
+			);
+			path = CarMaintenanceReminderTests;
+			sourceTree = "<group>";
+		};
+		C28B66922A6855850074F2B1 /* CarMaintenanceReminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C28B66932A6855850074F2B1 /* CarMaintenanceReminderUITests.swift */,
+				C28B66952A6855850074F2B1 /* CarMaintenanceReminderUITestsLaunchTests.swift */,
+			);
+			path = CarMaintenanceReminderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C28B66732A6855820074F2B1 /* CarMaintenanceReminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28B66992A6855850074F2B1 /* Build configuration list for PBXNativeTarget "CarMaintenanceReminder" */;
+			buildPhases = (
+				C28B66702A6855820074F2B1 /* Sources */,
+				C28B66712A6855820074F2B1 /* Frameworks */,
+				C28B66722A6855820074F2B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarMaintenanceReminder;
+			productName = CarMaintenanceReminder;
+			productReference = C28B66742A6855820074F2B1 /* CarMaintenanceReminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C28B66842A6855850074F2B1 /* CarMaintenanceReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28B669C2A6855850074F2B1 /* Build configuration list for PBXNativeTarget "CarMaintenanceReminderTests" */;
+			buildPhases = (
+				C28B66812A6855850074F2B1 /* Sources */,
+				C28B66822A6855850074F2B1 /* Frameworks */,
+				C28B66832A6855850074F2B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C28B66872A6855850074F2B1 /* PBXTargetDependency */,
+			);
+			name = CarMaintenanceReminderTests;
+			productName = CarMaintenanceReminderTests;
+			productReference = C28B66852A6855850074F2B1 /* CarMaintenanceReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C28B668E2A6855850074F2B1 /* CarMaintenanceReminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28B669F2A6855850074F2B1 /* Build configuration list for PBXNativeTarget "CarMaintenanceReminderUITests" */;
+			buildPhases = (
+				C28B668B2A6855850074F2B1 /* Sources */,
+				C28B668C2A6855850074F2B1 /* Frameworks */,
+				C28B668D2A6855850074F2B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C28B66912A6855850074F2B1 /* PBXTargetDependency */,
+			);
+			name = CarMaintenanceReminderUITests;
+			productName = CarMaintenanceReminderUITests;
+			productReference = C28B668F2A6855850074F2B1 /* CarMaintenanceReminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C28B666C2A6855820074F2B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C28B66732A6855820074F2B1 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C28B66842A6855850074F2B1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C28B66732A6855820074F2B1;
+					};
+					C28B668E2A6855850074F2B1 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C28B66732A6855820074F2B1;
+					};
+				};
+			};
+			buildConfigurationList = C28B666F2A6855820074F2B1 /* Build configuration list for PBXProject "CarMaintenanceReminder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C28B666B2A6855820074F2B1;
+			productRefGroup = C28B66752A6855820074F2B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C28B66732A6855820074F2B1 /* CarMaintenanceReminder */,
+				C28B66842A6855850074F2B1 /* CarMaintenanceReminderTests */,
+				C28B668E2A6855850074F2B1 /* CarMaintenanceReminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C28B66722A6855820074F2B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28B66802A6855850074F2B1 /* Preview Assets.xcassets in Resources */,
+				C28B667C2A6855850074F2B1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28B66832A6855850074F2B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28B668D2A6855850074F2B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C28B66702A6855820074F2B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C23637652A6EC0590043FB4C /* ApiCalls.swift in Sources */,
+				C236374C2A6857980043FB4C /* CustomViews.swift in Sources */,
+				C23637632A6EC0460043FB4C /* Models.swift in Sources */,
+				C236375C2A6858D70043FB4C /* CloseRemindersView.swift in Sources */,
+				C28B667A2A6855820074F2B1 /* ContentView.swift in Sources */,
+				C23637562A6858830043FB4C /* CarsView.swift in Sources */,
+				C236375A2A6858BB0043FB4C /* LoginView.swift in Sources */,
+				C236375E2A6858ED0043FB4C /* RefreshCarsView.swift in Sources */,
+				C23637542A6858670043FB4C /* AddReminderView.swift in Sources */,
+				C23637522A6858450043FB4C /* AddCarView.swift in Sources */,
+				C23637582A68589C0043FB4C /* HomeView.swift in Sources */,
+				C23637602A6859030043FB4C /* RegisterView.swift in Sources */,
+				C28B66782A6855820074F2B1 /* CarMaintenanceReminderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28B66812A6855850074F2B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28B668A2A6855850074F2B1 /* CarMaintenanceReminderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28B668B2A6855850074F2B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28B66942A6855850074F2B1 /* CarMaintenanceReminderUITests.swift in Sources */,
+				C28B66962A6855850074F2B1 /* CarMaintenanceReminderUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C28B66872A6855850074F2B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C28B66732A6855820074F2B1 /* CarMaintenanceReminder */;
+			targetProxy = C28B66862A6855850074F2B1 /* PBXContainerItemProxy */;
+		};
+		C28B66912A6855850074F2B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C28B66732A6855820074F2B1 /* CarMaintenanceReminder */;
+			targetProxy = C28B66902A6855850074F2B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C28B66972A6855850074F2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C28B66982A6855850074F2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C28B669A2A6855850074F2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarMaintenanceReminder/CarMaintenanceReminder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarMaintenanceReminder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FamyTech.CarMaintenanceReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C28B669B2A6855850074F2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CarMaintenanceReminder/CarMaintenanceReminder.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CarMaintenanceReminder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FamyTech.CarMaintenanceReminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C28B669D2A6855850074F2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FamyTech.CarMaintenanceReminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarMaintenanceReminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarMaintenanceReminder";
+			};
+			name = Debug;
+		};
+		C28B669E2A6855850074F2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FamyTech.CarMaintenanceReminderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarMaintenanceReminder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarMaintenanceReminder";
+			};
+			name = Release;
+		};
+		C28B66A02A6855850074F2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FamyTech.CarMaintenanceReminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarMaintenanceReminder;
+			};
+			name = Debug;
+		};
+		C28B66A12A6855850074F2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FamyTech.CarMaintenanceReminderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarMaintenanceReminder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C28B666F2A6855820074F2B1 /* Build configuration list for PBXProject "CarMaintenanceReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28B66972A6855850074F2B1 /* Debug */,
+				C28B66982A6855850074F2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28B66992A6855850074F2B1 /* Build configuration list for PBXNativeTarget "CarMaintenanceReminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28B669A2A6855850074F2B1 /* Debug */,
+				C28B669B2A6855850074F2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28B669C2A6855850074F2B1 /* Build configuration list for PBXNativeTarget "CarMaintenanceReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28B669D2A6855850074F2B1 /* Debug */,
+				C28B669E2A6855850074F2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28B669F2A6855850074F2B1 /* Build configuration list for PBXNativeTarget "CarMaintenanceReminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28B66A02A6855850074F2B1 /* Debug */,
+				C28B66A12A6855850074F2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C28B666C2A6855820074F2B1 /* Project object */;
+}

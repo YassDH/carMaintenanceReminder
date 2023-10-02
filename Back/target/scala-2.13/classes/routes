@@ -1,0 +1,31 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# USER ROUTES
+POST     /user/register                   controllers.UserController.signUp(request: Request)
+POST     /user/login                      controllers.UserController.logIn(request: Request)
++nocsrf
+GET      /user/verify                     controllers.UserController.isAuthenticated(request: Request)
++nocsrf
+GET      /user/name                       controllers.UserController.getUserName(request: Request)
+
+# CAR ROUTES
++nocsrf
+POST     /cars/add                        controllers.CarController.add(request: Request)
++nocsrf
+GET      /cars                            controllers.CarController.getCarsByUser(request: Request)
++nocsrf
+DELETE   /cars/:id                        controllers.CarController.deleteCar(request: Request, id : Long)
+
+# REMINDER ROUTES
++nocsrf
+POST     /reminders/add/:carID            controllers.ReminderController.addReminder(request: Request, carID : Long)
++nocsrf
+PATCH    /reminders/reset/:id             controllers.ReminderController.resetReminder(request: Request, id : Long)
++nocsrf
+GET      /reminders/sortedall             controllers.ReminderController.getRemindersSorted(request: Request)
++nocsrf
+DELETE   /reminders/:id                   controllers.ReminderController.deleteReminder(request: Request, id : Long)
++nocsrf
+GET      /reminders/:carID                controllers.ReminderController.getRemindersByCar(request: Request, carID : Long)
