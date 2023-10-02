@@ -59,8 +59,11 @@ db.default.password="{SQL_PASSWORD}" // exp : ""
 
 | | | |
 :-------------------------:|:-------------------------:|:-------------------------:
+|Home| Login | Signup|
 | ![Home](/Screenshots/Accueil.png) | ![Login](/Screenshots/Connexion.png) | ![Signup](/Screenshots/Inscription.png)
+|Reminders Preview| My Cars| Add Car|
 | ![Reminders Preview](/Screenshots/AprecuRappel.png) | ![My Cars](/Screenshots/MonGarage.png) | ![Add Car](/Screenshots/AjoutVoiture.png)
+|Add Reminder| | |
 | ![Add Reminder](/Screenshots/AjoutRappel.png) | |
 
 ## Conclusion
